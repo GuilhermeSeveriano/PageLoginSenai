@@ -1,0 +1,63 @@
+.fundo{
+    background-image: url(../../assets/img/fundo.jpg);
+    background-repeat: no-repeat;
+    height: 100%;
+    max-width: 100%;
+}
+
+.AreaLogin{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: rgb(0, 7, 71);
+    width: 50%;
+    height: 50%;
+    text-align: center;
+}
+
+.LoginComum{
+    background-color: #262626;
+    width: 50%;
+    
+}
+
+.qrcode img{
+    height: 15em;
+    width: auto;
+}
+
+.email{
+    color: #fff;
+    padding-right: 1em;
+    align-items: center;
+}
+
+.botao{
+    border-radius: 1em;
+    width: 5em;
+}
+
+.botao:hover{
+    background-color: #b303039f;
+    color:#fff
+}
+
+.imgsesisenai img{
+    height: 2em;
+    width: auto;
+}
+
+
+.LoginComum{
+    display: flex;
+    
+    justify-content: space-around;
+}
+
+.item-form{
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+
+}
