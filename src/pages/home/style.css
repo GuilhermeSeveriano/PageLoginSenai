@@ -1,79 +1,86 @@
-.fundo{
-    background-image: url(../../assets/img/tecnologia.jpg);
-    background-repeat: repeat;
-    height: 100%;
-    max-width: 100%;
-   
-    
+.fundo {
+  background-image: url(../../assets/img/tecnologia.jpg);
+  background-repeat: repeat;
+  height: calc(100vh - 9.5em);
+  max-width: 100%;
 }
 
-.AreaLogin{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-    width: 100%;
-    height: 100%;
-    align-items: center;
-
+.AreaLogin {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  width: 100%;
+  height: 100%;
+  align-items: center;
 }
 
+.areaBox {
+  height: 60%;
+  width: 30%;
 
-.Area1{
-    display: flex;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+
+  background-color: #262626;
+  border-radius: 2em;
+
+  padding: 2px;
+
+  min-height: 360px;
+  min-width: 330px;
+}
+
+.cadastre {
+  color: #fff;
+  font-weight: bold;
+}
+
+.qrcode img {
+  height: 15em;
+  width: auto;
+}
+
+.email {
+  color: #fff;
+  padding-right: 1em;
+  align-items: center;
+}
+
+.botao {
+  border-radius: 1em;
+  width: 5em;
+}
+
+.botao:hover {
+  background-color: #b303039f;
+  color: #fff;
+}
+
+.imgsesisenai img {
+  height: 100%;
+  width: 100%;
+}
+
+@media screen and (max-width: 700px) {
+  .fundo {
+    height: auto;
+  }
+
+  .AreaLogin {
     flex-direction: column;
-    align-items: center;
-    background-color: #262626;
-    width: 30%;
-    height: 60%;
-    justify-content: space-around;
-    border-radius: 2em;
-}
-.Area{
-    background-color: #262626;
-    width: 30%;
-    height: 60%;
-    display: flex;
-    justify-content: space-around;
-    text-align: center;
-    border-radius: 2em;
-}
+    height: auto;
+    padding: 15px 0px 0px 0px;
+  }
 
-.cadastre{
-    color: #fff;
-    font-weight: bold;
+  .areaBox {
+    height: 450px;
+    width: 80%;
+
+    min-height: 0px;
+    min-width: 0px;
+
+    margin-bottom: 15px;
+  }
 }
-    
-.qrcode img{
-    height: 15em;
-    width: auto;
-}
-
-.email{
-    color: #fff;
-    padding-right: 1em;
-    align-items: center;
-}
-
-.botao{
-    border-radius: 1em;
-    width: 5em;
-}
-
-.botao:hover{
-    background-color: #b303039f;
-    color:#fff
-}
-
-.imgsesisenai img{
-    height: 2em;
-    width: auto;
-}
-
-
-.item-form{
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-
-}
-

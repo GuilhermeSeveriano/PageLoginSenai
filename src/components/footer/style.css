@@ -5,5 +5,9 @@ a:link{
 
 .cor{
     color: white;
+    font-weight: bolder;
 }
 
+.rodape {
+    height: 6em;
+}

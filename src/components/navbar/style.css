@@ -22,3 +22,7 @@ a:link{
     font-weight: bolder;
     text-decoration: none;
 }
+
+.cabecalho {
+    height: 3.5em;
+}

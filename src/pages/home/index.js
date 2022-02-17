@@ -9,55 +9,53 @@ const Home = () => {
       <Navbar />
       <div className="fundo">
         <div className="AreaLogin">
-          
-          <div className="Area1">
+          <div className="areaBox">
             <div className="imgsesisenai">
               <img src={sesisenai} alt="logo senai" />
             </div>
             <div className="qrcode">
-              <img src={qrcode} alt="qrcode"/>
+              <img src={qrcode} alt="qrcode" />
             </div>
             <div className="cadastre">Escaneie o QRCode</div>
           </div>
 
           {/* -------Login Comum ---------------------------------------------------------------------------------------------------- */}
-          <div className="Area">
-            <form className="item-form" method="post" action="">
-              <div className="imgsesisenai">
-                <img src={sesisenai} alt="logo senai" />
-              </div>
-              <div class="form-group">
-                <label className="email" for="nome_login">
-                  Email
-                </label>
-                <input
-                  type="email"
-                  class="form-control"
-                  id="exampleInputEmail1"
-                  aria-describedby="emailHelp"
-                  placeholder="Seu email"
-                />
-              </div>
-              <div class="form-group">
-                <label className="email" for="exampleInputPassword1">
-                  Senha
-                </label>
-                <input
-                  type="password"
-                  class="form-control"
-                  id="exampleInputPassword1"
-                  placeholder="Senha"
-                />
-              </div>
-              <p>
-                <input className="botao" type="submit" value="Entrar" />
-              </p>
 
-              <p class="link">
-                <a href="#paracadastro">Cadastre-se</a>
-              </p>
-            </form>
-          </div>
+          <form className="areaBox" method="post" action="">
+            <div className="imgsesisenai">
+              <img src={sesisenai} alt="logo senai" />
+            </div>
+            <div class="form-group">
+              <label className="email" for="nome_login">
+                Email
+              </label>
+              <input
+                type="email"
+                class="form-control"
+                id="exampleInputEmail1"
+                aria-describedby="emailHelp"
+                placeholder="Seu email"
+              />
+            </div>
+            <div class="form-group">
+              <label className="email" for="exampleInputPassword1">
+                Senha
+              </label>
+              <input
+                type="password"
+                class="form-control"
+                id="exampleInputPassword1"
+                placeholder="Senha"
+              />
+            </div>
+            <p>
+              <input className="botao" type="submit" value="Entrar" />
+            </p>
+
+            <p class="link">
+              <a href="#paracadastro">Cadastre-se</a>
+            </p>
+          </form>
           {/*------------------------------------------------------------------------------------------------------------- */}
         </div>
       </div>
